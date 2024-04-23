@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin-in</title>
+    <style>
+            * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px 16px;
+    }
+
+    li a:hover:not(.active) {
+      text-shadow: #6d9c71;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    a:link {
+      color: rgb(0, 8, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(29, 28, 28);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(62, 103, 82);
+      background-color: transparent;
+      text-decoration: underline;
+      font-style: bol;
+    }
+
+    a:active {
+      color: rgb(62, 102, 84);
+      background-color: transparent;
+      text-decoration: underline;
+
+    }
+
+    .Navigation {
+      margin: auto;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /*  */
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+    }
+
+    .logo-img {
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .side-icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1%;
+      border-bottom: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .s-icon {
+
+      height: 25px;
+      margin: 0 20px;
+    }
+
+    .logo-img {
+      padding-left: 60px;
+    }
+/*  */
+/*  */
+/* login css start */
+
+
+.parent {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+    }
+    
+    .login-container {
+        background-color: #EFF0EC;
+        padding: 40px;
+        border-radius: 18px;
+        box-shadow: 0px 0px 10px rgba(126, 128, 127, 0.1);
+        width: 360px;
+    }
+    
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .login-container button {
+        width: 100%;
+        background-color: #719a6d;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    .login-container button:hover {
+        background-color: #67b05d;
+    }
+
+    .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-25%, -38%);
+
+  }
+
+  .Botem {
+      /* margin: 20px; */
+      display: block;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    hr {
+      width: 100%;
+    }
+    
+
+    
+    </style>
+</head>
+<body>
+  <div class="header">
+
+    <div class="navbar">
+      <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+</div>
+
+    <div class="logo-img">
+      <img src="IMGS\vastra2.png" alt="vastra logo image" width="300" height="75">
+    </div>
+
+    <div class="side-icons">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search Here">
+        <img src="IMGS\Vastra img's\Icons\Sarch.png" alt="" class="s-icon">
+      </div>
+      
+      <div class="icon">
+        <a href="#"><img src="IMGS\Vastra img's\Icons\login.png" alt="profile" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\like.png" alt="fav" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\Bage.png" alt="cart" class="s-icon"></a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="Navigation">
+    <nav>
+      <ul>
+
+        <li> <a href="Vastra_home1.html">Home</a></li>
+        <li> <a href="vastra_categories (1).html">Collection</a></li>
+        <li> <a href="vastra_saree1.html">Saree</a></li>
+        <li><a href="vastra_Lehnga_Choli .html">Woman</a></li>
+        <li><a href="vastra_men.html">Men</a></li>
+        <li><a href="vastra_Weding’s.html">Weding’s</a></li>
+      </ul>
+    </nav>
+  </div>
+    <hr>
+    <div class="parent">
+    <div class="login-container">     
+      <h2>Login / Sign in</h2>
+      <form action="Vastra_home1.html" >
+              <!-- <span class="details">Username</span> -->
+          <input type="text" name="username" placeholder="Username" required>
+          <!-- <span class="details">Password</span> -->
+          <input type="password" name="password" placeholder="Password" required>
+         <button type="submit">Next</button> 
+
+      </form>
+  </div>
+</div>
+
+
+<div class="Botem">
+    
+  <hr>
+  <img src="IMGS\vastra2.png" alt="logo botem" width="260">
+  <hr>
+</div>
+
+</body>
+</html>

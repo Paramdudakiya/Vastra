@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px 16px; 
+    }
+
+    li a:hover:not(.active) {
+      text-shadow: #6d9c71;
+      
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    a:link {
+      color: rgb(0, 8, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(14, 13, 13);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(62, 103, 82);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: rgb(62, 102, 84);
+      background-color: transparent;
+      text-decoration: underline;
+
+    }
+
+    .Navigation {
+      margin: auto;
+    }
+
+    .theimg {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+   
+    .theimg > img {
+      width: 90%;
+      border-radius: 1.521rem;
+      border: 1px solid rgb(255, 255, 255);
+    }
+
+    .Botem {
+      /* margin: 20px; */
+      display: block;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /*  */
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+    }
+
+    .logo-img {
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .side-icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1%;
+      border-bottom: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .s-icon {
+      
+      height: 25px;
+      margin: 0 20px;
+    }
+
+    .logo-img {
+      padding-left: 60px;
+      padding-top: 14px;
+
+    }
+    .Txt{
+      font-family: rosarivo;
+      color: #ffffff;
+      text-shadow: #2f3130;
+      text-shadow: 3px;
+      position: absolute;
+     left: 41%;
+     top: 59%;
+     text-decoration: none;
+      
+    }
+    .Txt :hover{
+   color: #d4c071;
+    }
+  
+  .i{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+  } 
+  
+  .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-25%, -38%);
+  }
+
+  .sh2 {
+    position: relative;
+    width: fit-content;
+    
+  z-index: -50;
+  }
+  .sh2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-25%, -38%);
+  }
+
+
+  </style>
+
+</head>
+
+<body>
+
+
+  <div class="header">
+
+    <div class="navbar">
+            <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+    </div>
+      
+
+
+
+    <div class="logo-img">
+      <img src="IMGS\vastra2.png" alt="vastra logo image" width="300" height="75">
+    </div>
+
+    <div class="side-icons">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search Here">
+        <img src="IMGS\Vastra img's\Icons\Sarch.png" alt="" class="s-icon">
+      </div>
+      
+      <div class="icon">
+        <a href="index.html"><img src="IMGS\Vastra img's\Icons\login.png" alt="profile" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\like.png" alt="fav" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\Bage.png" alt="cart" class="s-icon"></a>
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+  <div class="Navigation">
+    <nav>
+      <ul>
+
+        <li> <strong><a href="Vastra_home1.html">Home</a></strong></li>
+        <li> <a href="vastra_categories (1).html">Collection</a></li>
+        <li> <a href="vastra_saree1.html">Saree</a></li>
+        <li><a href="vastra_Lehnga_Choli .html">Woman</a></li>
+        <li><a href="vastra_men.html">Men</a></li>
+        <li><a href="vastra_Weding’s.html">Weding’s</a></li>
+      </ul>
+    </nav>
+  </div>
+ <a href="vastra_categories (1).html"> 
+  
+     <div class="theimg">
+    
+    <img src="IMGS\Home.png" alt="Home">
+    
+  </div></a>
+
+  <div class="sh2">
+    <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+</div>
+
+  <div class="Botem">
+    
+    <hr>
+    <img src="IMGS\vastra2.png" alt="logo botem" width="260">
+    <hr>
+  </div>
+  <div class="Txt">
+<a href="" style="color: aliceblue; text-decoration: none;"><h1>Vastra   Men Wear</h2></Vastra></a>
+  </div>
+  
+
+
+</body>
+
+</html>

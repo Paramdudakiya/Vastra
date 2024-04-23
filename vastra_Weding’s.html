@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px 16px;
+    }
+
+    li a:hover:not(.active) {
+      text-shadow: #6d9c71;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    a:link {
+      color: rgb(0, 8, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(29, 28, 28);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(62, 103, 82);
+      background-color: transparent;
+      text-decoration: underline;
+      font-style: bol;
+    }
+
+    a:active {
+      color: rgb(62, 102, 84);
+      background-color: transparent;
+      text-decoration: underline;
+
+    }
+
+    .Navigation {
+      margin: auto;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /*  */
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+    }
+
+    .logo-img {
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .side-icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1%;
+      border-bottom: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .s-icon {
+
+      height: 25px;
+      margin: 0 20px;
+    }
+
+    .logo-img {
+      padding-left: 60px;
+    }
+     /*  */
+    /*  */
+    /* */
+    .Txt{
+    text-align: center;
+    font-family: inria serif;   
+    }
+    .Txt2{
+    text-align: center;
+    font-family: jost ;
+    font-size: 17px;   
+    }
+    .Wedding{
+        display: flex;
+            justify-content: space-between;
+    }
+        .Wedding a {
+            margin-right: 70px;
+        }
+
+        .Wedding a:last-child {
+            margin-right: 70px;
+        }
+
+        .Weddingimg {
+            max-width: 30%;
+            height: auto;
+        }
+
+        .im>a {
+            height: auto;
+        }
+
+       
+        /*  */
+        /*  */
+        /*  */
+        
+        .im {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img {
+            text-align: center;
+            margin: 1%;
+        }
+        
+        .img img {
+            max-width: 100%;
+           width: 450px;
+        }
+
+        .img p {
+            margin:60px auto;
+            font-size: 25px;
+        color: black;
+       
+        }
+        .im a{
+            text-decoration: none;
+        }
+       .im p:hover{
+        color: rgb(85, 132, 73);
+       }
+       .im:hover{
+        zoom: 1;
+       }
+       .I1{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .I2{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        } 
+        .Wedding{
+            padding-top: 2%;
+        }
+        .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-25%, -38%);
+  }
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+
+      <div class="navbar">
+        <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+    </div>
+  
+        <div class="logo-img">
+              <img src="IMGS\vastra2.png" alt="vastra logo image" width="300" height="75">
+            </div>
+    
+        <div class="side-icons">
+          <div class="search">
+            <input type="text" class="search-bar" placeholder="Search Here">
+            <img src="IMGS\Vastra img's\Icons\Sarch.png" alt="" class="s-icon">
+          </div>
+    
+          <div class="icon">
+           <a href="index.html"> <img src="IMGS\Vastra img's\Icons\like.png" alt="fav" class="s-icon">
+            <img src="IMGS\Vastra img's\Icons\login.png" alt="profile" class="s-icon">
+            <img src="IMGS\Vastra img's\Icons\Bage.png" alt="cart" class="s-icon"></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="Navigation">
+        <nav>
+          <ul>
+    
+            <li> <a href="Vastra_home1.html">Home</a></li>
+            <li> <a href="vastra_categories (1).html">Collection</a></li>
+            <li> <a href="vastra_saree1.html">Saree</a></li>
+            <li><a href="vastra_Lehnga_Choli .html">Woman</a></li>
+            <li><a href="vastra_men.html">Men</a></li>
+            <li><strong><a href="vastra_Weding’s.html">Weding’s</a></strong></li>
+          </ul>
+        </nav>
+        <div class="Txt">            
+            <h1>Wedding Couture</h1>
+            
+        </div>
+        
+            <div class="Txt2"><br>
+                <p>An affluent range that meets your unique ceremonial dreams.</p>
+            </div>
+            <div class="Wedding">
+                <div class="im">
+                    <a href="vastra_Bridal.html"><div class="img"><img class="I1" src="IMGS\Vastra img's\Wedding\bridal1.PNG" alt="Bridal">
+                        <p>BRIDAL</p></a>
+                    </div>
+                   <a href="vastra_Groom.html"> <div class="img"><img  class="I2" src="IMGS\Vastra img's\Wedding\groom1.PNG" alt="Groom">
+                        <p>GROOM</p></a>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

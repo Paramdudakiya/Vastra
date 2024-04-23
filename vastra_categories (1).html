@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categories</title>
+    
+    <style>
+        .center {
+            text-align: center;
+            font-family: inria serif;
+        }
+
+        .p {
+            text-align: center;
+            font-size: x-small;
+            font-family: jost 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-container a {
+            margin-right: 30px;
+        }
+
+        .image-container a:last-child {
+            margin-right: 15px;
+        }
+
+        .image-container img {
+            max-width: 30%;
+            height: auto;
+            transition: transform 400ms; /* Added transition for smooth zoom effect */
+        }
+
+        .im>a {
+            height: auto;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin: 50px;
+            font: size 40px;
+            display: inline-flex;
+            padding-left: 50px;
+        }
+
+        .p {
+            font-size: 16px;
+        }
+
+        .saree {
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+
+        .Man {
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        .mage-container {
+            overflow: hidden;
+        }
+
+        .im {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img {
+            text-align: center;
+            margin: 1%;
+        }
+        
+        .img img {
+            max-width: 100%;
+            min-height: 320px;
+            max-height: 500px;
+        }
+
+        .img p {
+            margin: 50px auto;
+            font-size: 20px;
+            color: black;
+        }
+
+        .im a {
+            text-decoration: none;
+        }
+
+        .im p:hover {
+            color: rgb(85, 132, 73);
+        }
+        
+        .img:hover img {
+            transform: scale(1.1); /* Zoom in effect */
+        }
+        .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-19%, -38%);
+  }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+    </div>
+    <div class="center">
+        <h1>Top Categories</h1>
+    </div>
+    <p class=" p">
+        Discover Hand-picked Styles For You</p>
+    <hr>
+    <br>
+    <div class="image-container">
+        <div class="im">
+            <a href="vastra_saree1.html"><div class="img"><img class="saree" src="IMGS\Vastra img's/Categories/G1.png" alt="saree">
+                <p>SAREE</p></a>
+            </div>
+           <a href="vastra_ Salwar_Suits.html"> <div class="img"><img src="IMGS\Vastra img's\Categories\skd1.png" alt="SALWAR SUITS">
+                <p>SALWAR SUITS</p></a>
+            </div>
+           <a href="vastra_Lehnga_Choli .html"> <div class="img"><img src="IMGS\Vastra img's\Categories\L1.webp" alt="LEHNGA CHOLI">
+                <p>LEHNGA CHOLI</p></a>
+            </div>
+           <a href="vastra_men.html"><div class="img"><img class="Man" src="IMGS\Vastra img's\Categories\Men.png" alt="MEN’S WEAR">
+                <p>MEN’S WEAR</p></a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

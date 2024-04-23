@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vastra Bridal</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px 16px;
+    }
+
+    li a:hover:not(.active) {
+      text-shadow: #6d9c71;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    a:link {
+      color: rgb(0, 8, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(29, 28, 28);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(62, 103, 82);
+      background-color: transparent;
+      text-decoration: underline;
+      font-style: bol;
+    }
+
+    a:active {
+      color: rgb(62, 102, 84);
+      background-color: transparent;
+      text-decoration: underline;
+
+    }
+
+    .Navigation {
+      margin: auto;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /*  */
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+    }
+
+    .logo-img {
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+    .Bridal_1,
+    .Bridal_2,
+    .Bridal_3,
+    .Bridal_4 {
+      
+      transition: transform 0.3s ease;
+    }
+
+    .side-icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1%;
+      border-bottom: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .s-icon {
+
+      height: 25px;
+      margin: 0 20px;
+    }
+
+    .logo-img {
+      padding-left: 60px;
+
+    }
+    /*  */
+    /*  */
+    /* */
+    
+    .Bridal_1{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .Bridal_4{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        } 
+
+    .parent {
+
+      width: 30%;
+      color: #83a48c;
+
+    }
+    .ad {
+margin-left: 4%;
+margin-bottom: 2%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(155, 154, 154);
+    }
+
+    .parent {
+      width: 100vw;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .parent a {
+      margin-right: 30px;
+    }
+
+    .child1 {
+      margin-left: 40px;
+    }
+
+    .child4 {
+      margin-right: 40px;
+    }
+    .parent p{
+      margin-bottom: 2%;
+    }
+    .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-25%, -38%);
+  }
+  .Brida img {
+    max-width: 30%;
+            height: auto;
+            transition: transform 400ms;
+  }
+  .Brida img :hover {
+    transform: scale(1.1); 
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+
+    <div class="navbar">
+      <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+  </div>
+
+
+
+    <div class="logo-img">
+          <img src="IMGS\vastra2.png" alt="vastra logo image" width="300" height="75">
+        </div>
+
+    <div class="side-icons">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search Here">
+        <img src="IMGS\Vastra img's\Icons\Sarch.png" alt="" class="s-icon">
+      </div>
+
+      <div class="icon">
+       <a href="index.html"> <img src="IMGS\Vastra img's\Icons\like.png" alt="fav" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\login.png" alt="profile" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\Bage.png" alt="cart" class="s-icon"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="Navigation">
+    <nav>
+      <ul>
+
+        <li> <a href="Vastra_home1.html">Home</a></li>
+        <li> <a href="vastra_categories (1).html">Collection</a></li>
+        <li> <a href="vastra_saree1.html">Saree</a></li>
+        <li><a href="Woman">Woman</a></li>
+        <li><a href="vastra_men.html">Men</a></li>
+        <li><strong><a href="vastra_Weding’s.html">Weding’s</a></strong></li>
+      </ul>
+    </nav>
+    <p class="ad"> Weding’s  > <strong>Bridal</strong> </p>
+
+    <div class=" Bridal">
+      <div class="parent">
+
+        <div class="child1">
+          <a href="vastra_Buy.html"><img class=" Bridal_1" src="IMGS\Vastra img's\Bridal\BR.PNG" alt=" Bridal_1" width="300">
+            <p for="ss1">Ivory Beige Tissue Sheesh...</p>
+            <p for="">₹273,000.00</p>
+          </a>
+        </div>
+
+        <div class="child2">
+          <a href="vastra_Buy.html"><img class=" Bridal_2" src="IMGS\Vastra img's\Bridal\br2.png" alt=" Bridal_2" width="300">
+            <p for="ss2">Beige Net Heavy Worked...</p>
+            <p for="">₹73,199.00</p>
+          </a>
+        </div>
+
+        <div class="child3">
+          <a href="vastra_Buy.html"><img class=" Bridal_3" src="IMGS\Vastra img's\Bridal\br3.png" alt=" Bridal_3" width="300">
+            <p for="ss3">Pink Raw Silk Traditional... </p>
+            <p for="">₹552,000.00</p>
+          </a>
+        </div>
+
+        <div class="child4">
+          <a href="vastra_Buy.html"><img class=" Bridal_4" src="IMGS\Vastra img's\Bridal\BR4.PNG" alt=" Bridal_4" width="300">
+            <p for="ss4">Cream Tissue Raw Silk...</p>
+            <p for="">₹225,999.00</p>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>

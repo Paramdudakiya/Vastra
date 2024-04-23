@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <style>
+            * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px 16px;
+    }
+
+    li a:hover:not(.active) {
+      text-shadow: #6d9c71;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    a:link {
+      color: rgb(0, 8, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: rgb(29, 28, 28);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(62, 103, 82);
+      background-color: transparent;
+      text-decoration: underline;
+      font-style: bol;
+    }
+
+    a:active {
+      color: rgb(62, 102, 84);
+      background-color: transparent;
+      text-decoration: underline;
+
+    }
+
+    .Navigation {
+      margin: auto;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /*  */
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+    }
+
+    .logo-img {
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .side-icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 50%;
+      /* border: 1px solid black; */
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1%;
+      border-bottom: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .s-icon {
+
+      height: 25px;
+      margin: 0 20px;
+    }
+
+    .logo-img {
+      padding-left: 60px;
+    }
+    .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -50;
+  }
+  .navbar img {
+    transform: translate(-25%, -38%);
+
+  }
+
+  .sh2 {
+    position: relative;
+    top: 96%;
+    left: 90%; 
+  }
+  /*  */
+  /*  */
+  .parent {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+    }
+    .per {
+        background-color: #EFF0EC;
+        padding: 50px;
+        border-radius: 18px;
+        box-shadow: 0px 0px 10px rgba(126, 128, 127, 0.1);
+        width: 390px;
+    }
+    
+    .per h3 {
+        text-align-last: 0 ;
+        margin-bottom: 30px;
+    }
+    *{
+  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   
+  }
+  
+  footer {
+    background-color: #87977D;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+    margin-top: 4%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+  }
+  
+  
+  .footer-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 5%;
+  }
+  .footer-section div {
+
+display: flex ;
+gap: 5px;
+
+  }
+  .h{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .footer-container {
+    /* style="margin: auto; display: flex;" */
+    display: flex;
+
+  }
+  .Botem {
+      /* margin: 20px; */
+      display: block;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    hr {
+      width: 100%;
+    }
+    .footer-section{
+      font-size: 12px;
+    }
+</style>
+</head>
+<body>
+  <div class="header">
+
+    <div class="navbar">
+      <img src="IMGS\Vastra img's\Shape\Shap.png" width="290" alt="line" >
+</div>
+
+    <div class="logo-img">
+      <img src="IMGS\vastra2.png" alt="vastra logo image" width="300" height="75">
+    </div>
+
+    <div class="side-icons">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search Here">
+        <img src="IMGS\Vastra img's\Icons\Sarch.png" alt="" class="s-icon">
+      </div>
+      
+      <div class="icon">
+        <a href="index.html"><img src="IMGS\Vastra img's\Icons\login.png" alt="profile" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\like.png" alt="fav" class="s-icon">
+        <img src="IMGS\Vastra img's\Icons\Bage.png" alt="cart" class="s-icon"></a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="Navigation">
+    <nav>
+      <ul>
+
+        <li> <a href="Vastra_home1.html">Home</a></li>
+        <li> <a href="vastra_categories (1).html">Collection</a></li>
+        <li> <a href="vastra_saree1.html">Saree</a></li>
+        <li><a href="vastra_Lehnga_Choli .html">Woman</a></li>
+        <li><a href="vastra_men.html">Men</a></li>
+        <li><a href="vastra_Weding’s.html">Weding’s</a></li>
+      </ul>
+    </nav>
+</div>
+<hr>
+
+<div class="parent">
+    <div class="per">     
+      <h3>Get Clothes From Vastra :</h3>
+<p>""Step into style at our store! Discover premium fabrics, trendy designs, and unbeatable prices. Elevate your wardrobe with us today. Don't miss out!"" <br> "Visit your nearest store mentiond below""</p>
+
+</div>
+</div>
+
+<footer >
+  <div class="footer-container" >
+    <div class="footer-section">
+      
+    
+<div class="h">          
+<h4>OUR STORES</h4> <span class="material-icons">map</span>
+</div>
+        <div>
+          <span class="material-icons">
+            location_on
+            </span>
+            
+              <p> SP-rod,Bapasitaram
+              Chowk, Ravapar <br>Morbi - 363642.</p>
+        </div>
+        
+        <div>
+          <span class="material-icons">
+            location_on
+            </span>
+            <p>
+              Sachin Nagar,Jivraj park <br>
+              Ahmedabad -380052.
+            </p>
+           
+        </div>
+
+        <div >
+          <span class="material-icons">
+            location_on
+            </span>
+            <p>
+              Sachin Nagar,Jivraj park <br>
+              Ahmedabad -380052.
+            </p>
+           
+        </div>
+
+        <div>
+          <span class="material-icons">
+            location_on
+            </span>
+            <p>
+              Sachin Nagar,Jivraj park <br>
+              Ahmedabad -380052.
+            </p>
+           
+        </div>
+     
+
+        
+
+    </div>
+    <div class="footer-section">
+      <div class="h">
+      <h4>CONTACT_US</h4>
+      <i class="fa-solid fa-address-book"></i>
+    </div>
+        <div >
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Rajat park ,Kalindi rod Bopal <br>
+          oppo rudra TVS ,Ahmedabad <br>
+          Ahmedabad- 380054.</p></div>
+       <div> <i class="fa-solid fa-phone"></i>
+        <p>+91 923481 2217</p></div>
+     
+    </div>
+    <div class="footer-section">
+      <div class="h">
+      <h4>INDIA & INTERNATIONAL </h4><i class="fa-solid fa-earth-africa"></i></div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <p>India :+91 8866799113
+          (24/7working)</p>
+        </div>
+        <div>
+        <i class="fa-solid fa-phone"></i>
+        <p>International :+91 5366759412
+          (24/7working)
+          Whatsapp Call</p>  
+        </div>       
+      
+    </div>
+
+    <div class="footer-section">
+      <h4>Follow Us on:</h4>
+      <div class="l" style="display: flex ; margin: 3px;">
+      <i class="fa-brands fa-square-pinterest"></i>
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-square-pinterest"></i>
+    </div>
+    </div>
+  </div>
+  <div class="Botem">
+  
+    <hr>
+    <img src="IMGS\vastra2.png" alt="logo botem" width="260">
+    <hr>
+  </div>
+</footer>
+</body>
+
+
+</html>
